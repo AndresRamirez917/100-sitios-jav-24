@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+#mainheader {
+    background: url("/img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+span{
+    font-size: 1.5em;
+    color: aqua;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin:  0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button-1 {
+    background: rgb(55, 55, 180);
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.button-1:hover {
+    background: rgb(82, 82, 180);
+}
+
+.button-2 {
+    background: #fff;
+    color: rgb(55, 55, 180);;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: 1px solid blue;
+    padding: 15px 20px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.button-2:hover {
+    border: 1px solid #bb1391;
+    color: #bb1391;
+}
+
+form .form-group {
+    margin-bottom: .5em;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+form button {
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 1em 1em;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+}
+
+ form button:hover {
+    background: #bb1391;
+}
+
+#mainheader img {
+    width: 100%;
+}
+
+/* navbar */
+.navbar .logo {
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1em;
+    font-weight: lighter;
+}
+
+.navbar ul {
+    float: right;
+    margin-top: 3rem;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+#showcase h1 {
+    margin-top: 12em;
+    text-align: center;
+ font-weight: lighter;
+    color: #fff;
+    font-size: 2em;
+}
+
+#showcase .button-1 {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1em;
+}
+
+/* features */
+#features h2 {
+   text-align: left;
+    margin-bottom: 1em;
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+.feature-card-1 {
+    float: left;
+    width: 40%;
+    margin-bottom: 5em;
+}
+
+.feature-card-1 .button-2 {
+    float: right;
+}
+
+.feature-card-2 {
+    float: right;
+    width: 40%;
+    margin-bottom: 5em;
+}
+
+/* contact */
+#contact form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 3em;
+}
