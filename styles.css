@@ -156,6 +156,14 @@ form button {
 }
 
 /* features */
+
+#features img {
+    width: 50%;
+    height: 50vh;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
 #features h2 {
    text-align: left;
     margin-bottom: 1em;
@@ -174,6 +182,22 @@ form button {
 }
 
 .feature-card-2 {
+    float: right;
+    width: 40%;
+    margin-bottom: 5em;
+}
+
+.feature-card-3 {
+    float: left;
+    width: 40%;
+    margin-bottom: 5em;
+}
+
+.feature-card-3 .button-2 {
+    float: right;
+}
+
+.feature-card-4 {
     float: right;
     width: 40%;
     margin-bottom: 5em;
