@@ -20,12 +20,26 @@
     background-size: 550px 650px;
 }
 
+ .feature-card-4{
+    display: block;
+    align-content: center;
+}
+
+.feature-card-2 {
+    display: block;
+    align-content: center;
+}
+
 
 .feature-card-1 {
     float: none;
     width: 100%;
     margin: 0;
     margin-bottom: 2rem;
+}
+
+.feature-card-1 button {
+    margin-bottom: 4rem;
 }
 
 .feature-card-2 {
@@ -36,6 +50,10 @@
 .feature-card-3 {
     float: none;
     width: 100%;
+}
+
+.feature-card-3 button {
+    margin-bottom: 4rem;
 }
 
 .feature-card-3 {
